@@ -46,4 +46,4 @@ Este repositorio contiene el desarrollo integral de un Dashboard de Inteligencia
 ## 👨‍💻 Autor
 **David Ramos**  
 *Business Intelligence Analyst*  
-[LinkedIn](AQUÍ_VA_TU_LINKEDIN) | [Portfolio](AQUÍ_VA_TU_WEB)
+[LinkedIn](https://www.linkedin.com/in/david-g-ramos/) | [Portfolio](https://dataanalist-davidgramos.github.io/mi-sitio-web/)
