@@ -16,7 +16,7 @@ Este repositorio contiene el desarrollo integral de un Dashboard de Inteligencia
 
 - **S (Situación):** Andes Retail Group ha consolidado **$5.53 millones** en ingresos con un margen robusto del **35.10%** y una ganancia total de **$1.94M**. Perú lidera con el 39% de participación.
 - **C (Complicación):** Se identifica una volatilidad estacional crítica. Deportes ($1.44M) concentra picos, pero en Invierno la calidad del ticket colapsa un **68%** ($549 vs. $1,721 en Verano).
-- **A (Respuesta):** Se rediseñó la visualización eliminando gráficos de anillos (Donuts) por **Barras Apiladas Horizontales** (Sprint 10 standard). Se recomienda implementar **Bundling estratégico** (Electrónica + Ropa) para restaurar el ticket a $1,100+.
+- **A (Respuesta):** Se eliminaron gráficos circulares en favor de un **Gráfico de Barras** para una comparación lineal clara de la calidad de venta ($3.98M Venta Alta vs $1.55M Venta Baja). Se recomienda implementar **Bundling estratégico** para elevar el ticket promedio a $1,100+.
 
 ### 🔍 Vista Detalle y Análisis de Segmentación
 
