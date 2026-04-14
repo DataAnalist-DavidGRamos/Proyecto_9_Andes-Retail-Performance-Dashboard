@@ -10,36 +10,19 @@ Este repositorio contiene el desarrollo integral de un Dashboard de Inteligencia
 
 ---
 
-## 🧠 Metodología Analítica: Modelo SCQA (Versión Final Real)
+## 🧠 Metodología Analítica: Modelo SCQA (Versión Ejecutiva Final)
 
 ### 📱 Vista Overview (Salud Global)
-- **S (Situación):** El grupo registra ingresos de **$5.53M** con un margen consolidado del **35.10%**. Perú se posiciona como el mercado líder con el 39% de participación.
-- **C (Complicación):** La categoría de mayor volumen (**Deportes**: $1.44M) presenta un margen del **35.07%**, mientras que **Electrónica** lidera la creación de valor con el margen más alto del mix (**35.26%**).
-- **Q (Pregunta):** ¿Cómo podemos asegurar que el crecimiento en volumen no erosione la rentabilidad global del grupo?
-- **A (Respuesta):** Es imperativo replicar las estrategias de precios de Electrónica en Deportes y fortalecer la operación en regiones premium que muestran márgenes superiores al promedio.
+- **S (Situación):** Andes Retail Group ha consolidado **$5.53 millones** en ingresos con un margen robusto del **35.10%** y una ganancia total de **$1.94M**. Perú lidera con el 39% de participación ($2.16M) y la mayor eficiencia operativa (35.17%).
+- **C (Complicación):** Se identifica una volatilidad estacional crítica. Deportes, el mayor generador de volumen ($1.44M), concentra demanda en picos, pero en Invierno la calidad del ticket colapsa un **68%** ($549 vs. $1,721 en Verano).
+- **Q (Pregunta):** ¿Cómo mitigamos la volatilidad estacional para estabilizar márgenes y ticket promedio sin sacrificar volumen?
+- **A (Respuesta):** Implementar estrategias de **Bundling estratégico** (Electrónica + Ropa) en estaciones bajas para restaurar el ticket a $1,100+ y capturar un potencial de **+$450K** en ROI.
 
-### 🔍 Vista Detalle y Calidad de Venta
-- **S (Situación):** El análisis estacional muestra un ecosistema saludable durante el Verano, donde las "Ventas Altas" dominan el **89.63%** de la facturación.
-- **C (Complicación):** En Invierno, la calidad de la venta sufre un deterioro drástico: el **70.68%** de los pedidos caen en la categoría de "Venta Baja", lo que estresa los costos operativos por pedido.
-- **Q (Pregunta):** ¿Qué factor está impulsando la caída del valor del ticket durante la temporada invernal?
-- **A (Respuesta):** Los datos sugieren una dependencia de productos de bajo costo en el cierre de año. Se recomienda implementar estrategias de "Bundling" (Venta cruzada) en Invierno para elevar el ticket promedio.
-
----
-
-## 📈 Visualizaciones Reales
-
-### 1. Overview Ejecutivo
-![Overview Dashboard](docs/images/dashboard_overview.png)
-
-### 2. Vista Detalle y Análisis Estacional
-![Detalle Dashboard](docs/images/dashboard_detail.png)
-
----
-
-## 🛠️ Stack Tecnológico
-- **Power BI Desktop:** Modelado y visualización.
-- **DAX:** Medidas de rentabilidad, margen y ticket promedio ($1.11K).
-- **Python:** Auditoría de integridad de datos previa.
+### 🔍 Vista Detalle y Análisis de Segmentación
+- **S (Situación):** El Verano es el motor premium, consolidando **$2.24M** (40.5% del ingreso anual) con tickets promedio de **$1,721**. El segmento "Premium" concentra el 47% de los ingresos totales.
+- **C (Complicación):** Invierno sufre una contracción severa del **-71%** en ingresos respecto al Verano. El 82.5% de las transacciones invernales caen por debajo de la mediana de mercado ($896), saturando la logística con pedidos de bajo valor.
+- **Q (Pregunta):** ¿La caída refleja estacionalidad inevitable o una falla en el mix de productos de temporada?
+- **A (Respuesta):** Los datos confirman una saturación de productos de bajo costo unitario (Hogar/Ropa). Se requiere una reestructuración del inventario invernal y promociones cruzadas con categorías de ticket alto para elevar el valor unitario.
 
 ---
 
