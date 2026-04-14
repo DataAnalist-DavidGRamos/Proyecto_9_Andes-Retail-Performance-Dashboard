@@ -13,20 +13,39 @@ Este repositorio contiene el desarrollo integral de un Dashboard de Inteligencia
 ## 🧠 Metodología Analítica: Modelo SCQA (Versión Ejecutiva Final)
 
 ### 📱 Vista Overview (Salud Global)
-- **S (Situación):** Andes Retail Group ha consolidado **$5.53 millones** en ingresos con un margen robusto del **35.10%** y una ganancia total de **$1.94M**. Perú lidera con el 39% de participación ($2.16M) y la mayor eficiencia operativa (35.17%).
-- **C (Complicación):** Se identifica una volatilidad estacional crítica. Deportes, el mayor generador de volumen ($1.44M), concentra demanda en picos, pero en Invierno la calidad del ticket colapsa un **68%** ($549 vs. $1,721 en Verano).
-- **Q (Pregunta):** ¿Cómo mitigamos la volatilidad estacional para estabilizar márgenes y ticket promedio sin sacrificar volumen?
-- **A (Respuesta):** Implementar estrategias de **Bundling estratégico** (Electrónica + Ropa) en estaciones bajas para restaurar el ticket a $1,100+ y capturar un potencial de **+$450K** en ROI.
+
+- **S (Situación):** Andes Retail Group ha consolidado **$5.53 millones** en ingresos con un margen robusto del **35.10%** y una ganancia total de **$1.94M**. Perú lidera con el 39% de participación.
+- **C (Complicación):** Se identifica una volatilidad estacional crítica. Deportes ($1.44M) concentra picos, pero en Invierno la calidad del ticket colapsa un **68%** ($549 vs. $1,721 en Verano).
+- **A (Respuesta):** Se rediseñó la visualización eliminando gráficos de anillos (Donuts) por **Barras Apiladas Horizontales** (Sprint 10 standard). Se recomienda implementar **Bundling estratégico** (Electrónica + Ropa) para restaurar el ticket a $1,100+.
 
 ### 🔍 Vista Detalle y Análisis de Segmentación
-- **S (Situación):** El Verano es el motor premium, consolidando **$2.24M** (40.5% del ingreso anual) con tickets promedio de **$1,721**. El segmento "Premium" concentra el 47% de los ingresos totales.
-- **C (Complicación):** Invierno sufre una contracción severa del **-71%** en ingresos respecto al Verano. El 82.5% de las transacciones invernales caen por debajo de la mediana de mercado ($896), saturando la logística con pedidos de bajo valor.
+
+- **S (Situación):** El Verano es el motor premium, consolidando **$2.24M** con tickets promedio de **$1,721**. El segmento "Premium" concentra el 47% de los ingresos anuales.
+- **C (Complicación):** Invierno sufre una contracción severa del **-71%** en ingresos. El **70.68%** de los pedidos invernales son de "Venta Baja", saturando la logística con pedidos de poco valor.
 - **Q (Pregunta):** ¿La caída refleja estacionalidad inevitable o una falla en el mix de productos de temporada?
-- **A (Respuesta):** Los datos confirman una saturación de productos de bajo costo unitario (Hogar/Ropa). Se requiere una reestructuración del inventario invernal y promociones cruzadas con categorías de ticket alto para elevar el valor unitario.
+- **A (Respuesta):** Se requiere una reestructuración del inventario invernal mediante **Barras 100% Apiladas** (Mejorando la jerarquía visual vs. anillos antiguos) para monitorear la mejora en el mix de ticket alto.
+
+---
+
+## 📈 Visualizaciones Reales
+
+### 1. Overview Ejecutivo
+![Overview Dashboard](docs/images/dashboard_overview.png)
+
+### 2. Vista Detalle y Análisis Estacional
+![Detalle Dashboard](docs/images/dashboard_detail.png)
+
+---
+
+## 🛠️ Stack Tecnológico
+- **Power BI Desktop:** Modelado y visualización.
+- **DAX:** Inteligencia de tiempo y medidas de rentabilidad.
+- **Python:** Auditoría de integridad de datos (Sprint 10).
 
 ---
 
 ## 👨‍💻 Autor
+
 **David Ramos**  
 *Business Intelligence Analyst*  
 [LinkedIn](https://www.linkedin.com/in/david-g-ramos/) | [Portfolio](https://dataanalist-davidgramos.github.io/mi-sitio-web/)
